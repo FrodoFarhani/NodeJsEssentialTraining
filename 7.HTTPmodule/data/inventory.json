@@ -1,0 +1,37 @@
+[
+    {
+        "name":"K-Eco 180",
+        "sku":"KE180",
+        "cost":"$100",
+        "retail":"$400",
+        "avail":"In stock"
+    },
+    {
+        "name":"K-Eco 280",
+        "sku":"KE280",
+        "cost":"$200",
+        "retail":"$420",
+        "avail":"In stock"
+    },
+    {
+        "name":"K-Eco 380",
+        "sku":"KE380",
+        "cost":"$300",
+        "retail":"$440",
+        "avail":"In stock"
+    },
+    {
+        "name":"K-Eco 480",
+        "sku":"KE480",
+        "cost":"$400",
+        "retail":"$800",
+        "avail":"On back order"
+    },
+    {
+        "name":"K-Eco 580",
+        "sku":"KE580",
+        "cost":"$500",
+        "retail":"$850",
+        "avail":"On back order"
+    }
+]
