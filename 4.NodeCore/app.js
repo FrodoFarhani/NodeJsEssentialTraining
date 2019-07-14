@@ -2,7 +2,7 @@ function getVar(flag){
     var index=process.argv.indexOf(flag);
     return index===-1 ? null : process.argv[index+1];
 }
-
+    
 var user= getVar("--user");
 var greeting=getVar("--greeting");
 
