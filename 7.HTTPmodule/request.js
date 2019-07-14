@@ -26,15 +26,12 @@ var req=https.request(options,function (res) {
             responseBody+=chunk;
             stream.write(responseBody);
           });
-          res.on('end',function () {
+        res.on('end',function () {
             stream.close();
-            console.log("file downloaded!");
-            
+            console.log("file downloaded!");           
           });
-        
   });
 req.on("error",function (err) {
       console.log(err);
-      
     });
 req.end();
