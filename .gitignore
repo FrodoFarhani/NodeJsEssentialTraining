@@ -1,3 +1,5 @@
 /9.webSocket/socketIO/node_modules
 /9.webSocket/webSocket/node_modules
 /8.express/node_modules
+/10.Testing/Testtools/node_modules
+/10.Testing/SuperTest-httpserver/node_modules
