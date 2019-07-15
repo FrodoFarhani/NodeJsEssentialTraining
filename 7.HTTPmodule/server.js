@@ -1,3 +1,4 @@
+/* jshint esnext:true */ 
 var http=require('http');
 
 var server= http.createServer(function(req,res){
@@ -6,6 +7,7 @@ var server= http.createServer(function(req,res){
     res.writeHead(200,{"content-type":"text/plain"});
     res.end(`URL:${req.url}
     Method:${req.method}
+    this is it!
 `);
 });
 server.listen(3000);
