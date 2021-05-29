@@ -12,6 +12,6 @@
   "author": "Alex Banks <alex@moonhighway.com> (http://www.moonhighway.com)",
   "license": "MIT",
   "dependencies": {
-    "ws": "^7.1.0"
+    "ws": "^7.4.6"
   }
 }
